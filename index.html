@@ -8,18 +8,72 @@
 </head>
 <body>
     <header><h1>SJ Arts & Crafts</h1></header>
-    <nav> 
-        <ul>
-            <li><a href="#">Amigurumis</a></li>
-            <li><a href="#">Costume Jewerly</a></li>
-            <li><img src="assets\imgs\logo.png" alt="SJ Logo" width="300" height="300"></li>
-            <li><a href="#">Resin Crafts</a></li>
-            <li><a href="#">Miniatures</a></li>
-        </ul>
+    <nav>
+        <div>
+            <ul>
+                <li><a href="#amigurumis">Amigurumis</a></li> <!-- El símbolo # representa un enlace que todavía no se sabe cuál será-->
+                <li><a href="#costume-jewelry">Costume Jewelry</a></li>
+                <li><img src="assets/imgs/logo.png" alt="SJ Logo" width="300" height="300"></li>
+                <li><a href="#resin-crafts">Resin Crafts</a></li>
+                <li><a href="#miniatures">Miniatures</a></li>
+            </ul>
+
+        </div> 
     </nav>
-    <main>
+    <main> <!--Para lo que quieres hacer, creo que las secciones son un poco redundantes, es mejor que tu barra de navegación sean botones que muestren las fotos de los productos-->
+        <!--Aquí será la sección de Amigurumis-->
+        <section>
+            <h2 id="amigurumis">Amigurumis</h2>
+        </section>
+        <!--Sección de Bisutería-->
+        <section>
+            <h2 id="costume-jewelry">Costume Jewelry</h2>
+        </section>
+        <!--Sección de resinas-->
+        <section>
+            <h2 id="resin-crafts">Resin Crafts</h2>
+        </section>
+        <!--Sección de miniaturas-->
+        <section>
+            <h2 id="miniatures">Miniatures</h2>
+        </section>
+        <section> <!--Formulario (se pasará a main porque forma parte de la temática principal de la página)-->
+        <h2>Contact me</h2>
+    
+        <form action="">
+            <fieldset>
+                <legend>Looking for something special? Fill all of the fields</legend>
+                <div>
+                    <label for="name">Name:</label> <!--Como buena práctica, los label deben conectarse con los input-->
+                    <input type="text" name="name" id="name" placeholder="Your name">
+    
+                </div>
+    
+                <div>
+                    <label for="phone-number">Phone Number: </label>
+                    <input type="number" name="phone-number" id="phone-number" placeholder="Your phone number">
+                </div>
+    
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="phone-number" id="phone-number" placeholder="Your email">
+                </div>
+    
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" placeholder="Ask me for anything you're looking for!"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+            </fieldset>
+        </form>
+    </section>
     </main>
-    <footer>2026. All rights reserved</footer>
+    
+    <footer>
+        <p>2026. All rights reserved to Gustavo Marroquin.</p>
+    </footer> <!-- Aquí debes poner algo con más caché, que suene profesional-->
     
     
 </body>
