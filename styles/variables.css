@@ -1,0 +1,28 @@
+/*Aquí van variables. Una variable CSS es un valor reutilizable que puedes guardar con un nombre
+
+Siempre se declaran dentro de un selector. Lo más común es usar :root.
+
+:root -> representa el elemento <html> (nivel global)
+--name-variable: value -> nombre de la variable (siempre empieza con --): valor de la variable
+
+Finalmente, se usa con la función var();
+
+Normalmente, aquí van colores, fuentes, tamaños base, espaciados, entre otros.
+*/
+:root{
+    --color-bg: #c6f2d9;
+    --color-nav-bg: #f6f3fb;
+    --color-text-primary: #7A787F;
+    --color-text-footer: rgba(94, 92, 97, 0.4);
+    --color-text-title: rgba(0, 0, 0, 0.4);
+    --color-text-hover: #5F7F73;
+
+    --font-display: "Dancing Script", cursive;
+    --font-accent: "Playwrite AT", cursive;
+    --font-hand: "Caveat", cursive;
+
+    --fs-title: 60px;
+    --fs-section: 30px;
+
+
+}

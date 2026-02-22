@@ -1,8 +1,4 @@
-/** {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}*/
+/*Aquí solo va el layout base y las reglas generales*/
 
 body
 {
@@ -12,7 +8,7 @@ body
     box-sizing: border-box;
 }
 
-#header{
+.site-title{
 
     text-align: center;
     font-family: "Dancing Script", cursive;
@@ -20,8 +16,56 @@ body
     font-weight: 700;
     font-style: initial;
     font-size: 60px;
+    color: rgba(0, 0, 0, 0.4);
 
 }
+
+#amigurumis{
+
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#costume-jewelry{
+
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#resin-crafts{
+
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#miniatures{
+
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+#contact{
+
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
 
 nav ul{
     list-style: none;
@@ -41,8 +85,9 @@ nav {
 
 nav a {
     text-decoration: none;
+    font-family: "Playwrite AT", cursive;
     color: #7A787F;  /* gris elegante */
-    font-weight: 500;
+    font-weight: 700;
     transition: 0.3s ease;
 }
 
@@ -50,8 +95,20 @@ nav a:hover {
     color: #5F7F73;  /* verde más oscuro */
 }
 
+legend{
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+
+}
+
+label{
+     font-family: "Caveat", cursive;
+     font-size: 20px;
+}
+
 footer
 {
+    font-family: "Playwrite AT", cursive;
     text-align: center;
     font-weight: 700;
     color: rgba(94, 92, 97, 0.4);
