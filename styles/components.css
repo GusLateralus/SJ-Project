@@ -1,0 +1,75 @@
+/*header*/
+.site-title {
+    text-align: center;
+    font-family: var(--font-display);
+    font-size: var(--fs-title);
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/*Nav Bar*/
+.navbar{
+    background-color: var(--color-nav-bg);
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: var(--font-accent);
+    color: var(--color-text-primary);
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover{
+    color: var(--color-hover);
+}
+
+/*Secciones de contenido principal*/
+.section-title {
+    font-family: var(--font-display);
+    text-align: center;
+    font-weight: 700;
+    font-size: var(--fs-section);
+}
+
+/*Formulario*/
+
+legend{
+    font-family: var(--font-hand);
+    font-size: 30px;
+}
+
+label{
+    font-family: var(--font-hand);
+    font-size: 20px;
+}
+
+.contact-form{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+
+/*Footer*/
+.site-footer {
+    font-family: var(--font-accent);
+    text-align: center;
+    font-weight: 700;
+    color: var(--color-text-footer);
+    padding: 20px 0;
+}

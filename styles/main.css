@@ -1,115 +1,16 @@
 /*Aquí solo va el layout base y las reglas generales*/
 
-body
-{
-    background-color: #c6f2d9;
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.site-title{
-
-    text-align: center;
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: initial;
-    font-size: 60px;
-    color: rgba(0, 0, 0, 0.4);
-
+body {
+    background-color: var(--color-bg);
 }
 
-#amigurumis{
-
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
+.section {
+    padding: 60px 20px;
 }
 
-#costume-jewelry{
-
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-}
-
-#resin-crafts{
-
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-}
-
-#miniatures{
-
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-
-}
-
-#contact{
-
-    font-family: "Dancing Script", cursive;
-    text-align: center;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-}
-
-
-nav ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-nav {
-    background-color: #f6f3fb;
-    padding: 20px 0;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-
-nav a {
-    text-decoration: none;
-    font-family: "Playwrite AT", cursive;
-    color: #7A787F;  /* gris elegante */
-    font-weight: 700;
-    transition: 0.3s ease;
-}
-
-nav a:hover {
-    color: #5F7F73;  /* verde más oscuro */
-}
-
-legend{
-    font-family: "Caveat", cursive;
-    font-size: 30px;
-
-}
-
-label{
-     font-family: "Caveat", cursive;
-     font-size: 20px;
-}
-
-footer
-{
-    font-family: "Playwrite AT", cursive;
-    text-align: center;
-    font-weight: 700;
-    color: rgba(94, 92, 97, 0.4);
-}

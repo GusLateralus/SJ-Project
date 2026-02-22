@@ -6,6 +6,8 @@
     <title>SJ Arts & Crafts</title>
     <link rel="icon" href="assets/icons/main.ico">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/components.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
@@ -17,9 +19,9 @@
     <header class="site-header">
         <h1 class="site-title">SJ Arts & Crafts</h1>
     
-        <nav>
+        <nav class="navbar">
             <div>
-                <ul>
+                <ul class="nav-list">
                     <li><a href="#amigurumis">Amigurumis</a></li>
                     <!--El símbolo # representa un enlace que todavía no se sabe cuál será-->
                     <li><a href="#costume-jewelry">Costume Jewelry</a></li>
@@ -51,29 +53,29 @@
         <section id="contact" class="section"> <!--Formulario (se pasará a main porque forma parte de la temática principal de la página)-->
         <h2 class="section-title">Contact me</h2>
         </section>
-    
+    <section class="contact-form">
         <form action="">
-            <fieldset>
+            <fieldset class="fieldset">
                 <legend>Looking for something special? Fill all of the fields</legend>
                 <div>
                     <label for="name">Name:</label> <!--Como buena práctica, los label deben conectarse con los input-->
-                    <input type="text" name="name" id="name" placeholder="Your name">
+                    <input class="form-group" type="text" name="name" id="name" placeholder="Your name">
     
                 </div>
     
                 <div>
                     <label for="phone-number">Phone Number: </label>
-                    <input type="number" name="phone-number" id="phone-number" placeholder="Your phone number">
+                    <input class="form-group" type="tel" name="phone-number" id="phone-number" placeholder="Your phone number">
                 </div>
     
                 <div>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" placeholder="Your email">
+                    <input class="form-group" type="email" name="email" id="email" placeholder="Your email">
                 </div>
     
                 <div>
                     <label for="message">Message:</label>
-                    <textarea name="message" id="message" placeholder="Ask me for anything you're looking for!"></textarea>
+                    <textarea class="form-group" name="message" id="message" placeholder="Ask me for anything you're looking for!"></textarea>
                 </div>
                 <div>
                     <input type="submit" value="Send">
@@ -83,7 +85,7 @@
     </section>
     </main>
     
-    <footer>
+    <footer class="site-footer">
         <p> &copy; 2026. All rights reserved to Gustavo Marroquin.</p>
     </footer> <!-- Aquí debes poner algo con más caché, que suene profesional-->
     
